@@ -11,20 +11,20 @@
 现有的环境配置工具大多只解决 Python 深度学习那一块，而且必须装客户端、按周付费、代码闭源。快装想解决的是更普遍的问题：
 
 - **不止 Python** — Java / Maven / Node / Go / Rust 一起管
-- **不用手敲一堆命令** — `kz install java@21 maven node@22`
+- **不用手敲一堆命令** — ```kz install java@21 maven node@22```
 - **自动匹配版本** — 读项目文件（pom.xml / package.json / pyproject.toml / go.mod）推荐兼容版本
 - **国内镜像加速** — 默认走国内源，下载不用等
 - **环境隔离** — 每个项目独立，互不干扰
 
 ## 快速开始
 
-`bash
+```bash
 kz detect                  # 探测电脑上已经装了什么
 kz list java               # 看有哪些可装版本
 kz install java@21 maven   # 一键装好一套 Java 开发环境
 kz setup                   # 按当前项目自动配环境
 kz remove java@21          # 卸载干净
-`
+```
 
 ## 支持的语言
 
@@ -56,10 +56,10 @@ kz remove java@21          # 卸载干净
 
 ## 开发
 
-`bash
+```bash
 npm install
 npm run dev -- detect
-`
+```
 
 ## 说明
 
