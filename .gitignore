@@ -1,0 +1,23 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+build/
+*.tsbuildinfo
+
+# 日志
+*.log
+npm-debug.log*
+
+# 环境变量与本地配置
+.env
+.env.local
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+
+# 系统
+Thumbs.db
